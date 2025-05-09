@@ -1,13 +1,41 @@
-# React + Vite
+#  Policy Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based economic policy simulation tool that allows users to visualize the impact of tax and spending decisions on macroeconomic indicators such as **GDP**, **inflation**, **unemployment**, and **national debt**. Built with an interactive front-end using **React.js**, **TailwindCSS**, and **react-simple-maps** for dynamic data visualization.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🔧 Adjust policy levers (e.g., tax rates, government spending)
+- 📈 Visualize real-time impact on key economic indicators
+- 🗺️ Interactive map visualization using `react-simple-maps`
+- 💡 Designed to support future backend integration with **FastAPI**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# policy-sim
+---
+
+## Tech Stack
+
+| Layer       | Technology            |
+|-------------|------------------------|
+| Frontend    | React.js, TailwindCSS |
+| Maps        | react-simple-maps     |
+| Backend (Planned) | FastAPI          |
+
+---
+
+## Planned Features (Backend)
+
+- API endpoints for simulation logic and real-time economic models
+- Dynamic economic forecasting using Python-based models
+- Support for scenario-based simulations and historical comparisons
+
+---
+
+## Screenshots
+
+<img width="1434" alt="Screenshot 2025-05-08 at 9 40 23 PM" src="https://github.com/user-attachments/assets/94d086b1-b519-49df-bc42-0b53d9d45704" />
+
+
+---
+
+
